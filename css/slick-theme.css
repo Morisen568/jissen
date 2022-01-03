@@ -1,0 +1,46 @@
+.slick_prev,
+.slick_next {
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.slick_prev {
+  left: 2.5%;
+  transform: rotate(-135deg);
+}
+
+.slick_next {
+  right: 2.5%;
+  transform: rotate(45deg);
+}
+
+.slick-dots {
+  margin: -80px 0 0 0;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.slick-dots button {
+  color: transparent;
+  background: #fff;
+  border-radius: 50%;
+  outline: none;
+  display: block;
+}
+
+.slick-dots .slick-active button {
+  background: #fff;
+}

@@ -1,0 +1,175 @@
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #888;
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  position: relative;
+}
+
+.top_wrap h1 {
+  font-size: 30px;
+  color: #fff;
+  background-color: #007;
+  padding: 25px 50px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  top: 52%;
+  right: 5%;
+  z-index: 20;
+  margin: 0;
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #75d5ff;
+}
+
+.service_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  color: #75d5ff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service_right p {
+  font-size: 15px;
+  color: #555;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news p {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.price_wrap table td {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+#contact {
+  background: #f1f1f1;
+}
+
+.contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid #fff 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}

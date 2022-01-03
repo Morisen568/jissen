@@ -1,0 +1,192 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: $cNav;
+    padding: 20px 70px;
+
+    li {
+      font-size: 20px;
+
+      a{
+        color: $cWhite;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#top {
+  height: 600px;
+  position: relative;
+}
+
+.top {
+
+  &_wrap {
+
+    h1 {
+      font-size: 30px;
+      color: $cWhite;
+      background-color: $cBlue;
+      padding: 25px 50px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 52%;
+      right: 5%;
+      z-index: 20;
+      margin: 0;
+    }
+  }
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: $cBlue_Light;
+}
+
+.service {
+
+  &_wrap {
+    @include flex;
+  }
+
+  &_left {
+
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  &_right {
+
+    h3 {
+      color: $cBlue_Light;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+
+    p {
+
+      font-size: 15px;
+      color: $cGray;
+    }
+  }
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news {
+
+  &_wrap {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  p {
+    line-height: 2.5;
+  }
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price {
+
+  &_wrap {
+
+    table {
+      border: double $cBlue_Light 10px;
+      width: 100%;
+      text-align: center;
+
+      tr {
+        border: solid $cBlue_Light 2px;
+        padding: 10px;
+      }
+
+      th {
+        border: solid $cBlue_Light 2px;
+        padding: 10px;
+      }
+
+      td {
+        border: solid $cBlue_Light 2px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+#contact {
+  background: $white_rgb;
+}
+
+.contact {
+
+  h2 {
+    padding: 40px 0;
+  }
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid$cWhite 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+
+  &_submit {
+    padding: 10px 50px;
+    background-color: $cGray;
+    margin: 50px 0;
+    font-weight: bold;
+    border: none;
+    color: $cWhite;
+  }
+}
+
+#footer {
+  background-color: $cBlack;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
